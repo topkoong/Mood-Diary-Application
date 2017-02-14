@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E82D8B701DF67DD700E196EC /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82D8B6F1DF67DD700E196EC /* MapViewController.swift */; };
+		E82D8B721DF682DC00E196EC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E82D8B711DF682DC00E196EC /* CoreLocation.framework */; };
+		E8A67EB11DF53EC100EE7654 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8A67EB01DF53EC100EE7654 /* Social.framework */; };
+		F57090C41DF2A7A500515E83 /* addTasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57090C31DF2A7A500515E83 /* addTasksViewController.swift */; };
+		F57090C61DF3876B00515E83 /* ContentDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57090C51DF3876B00515E83 /* ContentDetailsViewController.swift */; };
+		F57090C81DF3A1BB00515E83 /* EditContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57090C71DF3A1BB00515E83 /* EditContentViewController.swift */; };
+		F5A2B58A1DF2A42300E606E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A2B5891DF2A42300E606E1 /* AppDelegate.swift */; };
+		F5A2B58C1DF2A42300E606E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A2B58B1DF2A42300E606E1 /* ViewController.swift */; };
+		F5A2B58F1DF2A42300E606E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5A2B58D1DF2A42300E606E1 /* Main.storyboard */; };
+		F5A2B5921DF2A42300E606E1 /* New_Mood_Diary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F5A2B5901DF2A42300E606E1 /* New_Mood_Diary.xcdatamodeld */; };
+		F5A2B5941DF2A42300E606E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5A2B5931DF2A42300E606E1 /* Assets.xcassets */; };
+		F5A2B5971DF2A42300E606E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5A2B5951DF2A42300E606E1 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E82D8B6F1DF67DD700E196EC /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		E82D8B711DF682DC00E196EC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E8A67EB01DF53EC100EE7654 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		F57090C31DF2A7A500515E83 /* addTasksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addTasksViewController.swift; sourceTree = "<group>"; };
+		F57090C51DF3876B00515E83 /* ContentDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentDetailsViewController.swift; sourceTree = "<group>"; };
+		F57090C71DF3A1BB00515E83 /* EditContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditContentViewController.swift; sourceTree = "<group>"; };
+		F5A2B5861DF2A42300E606E1 /* New Mood Diary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "New Mood Diary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5A2B5891DF2A42300E606E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5A2B58B1DF2A42300E606E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5A2B58E1DF2A42300E606E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5A2B5911DF2A42300E606E1 /* New_Mood_Diary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = New_Mood_Diary.xcdatamodel; sourceTree = "<group>"; };
+		F5A2B5931DF2A42300E606E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5A2B5961DF2A42300E606E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5A2B5981DF2A42300E606E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5A2B5831DF2A42300E606E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E82D8B721DF682DC00E196EC /* CoreLocation.framework in Frameworks */,
+				E8A67EB11DF53EC100EE7654 /* Social.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E8A67EAF1DF53EC100EE7654 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E82D8B711DF682DC00E196EC /* CoreLocation.framework */,
+				E8A67EB01DF53EC100EE7654 /* Social.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5A2B57D1DF2A42200E606E1 = {
+			isa = PBXGroup;
+			children = (
+				F5A2B5881DF2A42300E606E1 /* New Mood Diary */,
+				F5A2B5871DF2A42300E606E1 /* Products */,
+				E8A67EAF1DF53EC100EE7654 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F5A2B5871DF2A42300E606E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5A2B5861DF2A42300E606E1 /* New Mood Diary.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5A2B5881DF2A42300E606E1 /* New Mood Diary */ = {
+			isa = PBXGroup;
+			children = (
+				F5A2B5891DF2A42300E606E1 /* AppDelegate.swift */,
+				F5A2B58B1DF2A42300E606E1 /* ViewController.swift */,
+				F57090C31DF2A7A500515E83 /* addTasksViewController.swift */,
+				F5A2B58D1DF2A42300E606E1 /* Main.storyboard */,
+				F5A2B5931DF2A42300E606E1 /* Assets.xcassets */,
+				F5A2B5951DF2A42300E606E1 /* LaunchScreen.storyboard */,
+				F5A2B5981DF2A42300E606E1 /* Info.plist */,
+				F5A2B5901DF2A42300E606E1 /* New_Mood_Diary.xcdatamodeld */,
+				F57090C51DF3876B00515E83 /* ContentDetailsViewController.swift */,
+				F57090C71DF3A1BB00515E83 /* EditContentViewController.swift */,
+				E82D8B6F1DF67DD700E196EC /* MapViewController.swift */,
+			);
+			path = "New Mood Diary";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5A2B5851DF2A42300E606E1 /* New Mood Diary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5A2B59B1DF2A42300E606E1 /* Build configuration list for PBXNativeTarget "New Mood Diary" */;
+			buildPhases = (
+				F5A2B5821DF2A42300E606E1 /* Sources */,
+				F5A2B5831DF2A42300E606E1 /* Frameworks */,
+				F5A2B5841DF2A42300E606E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "New Mood Diary";
+			productName = "New Mood Diary";
+			productReference = F5A2B5861DF2A42300E606E1 /* New Mood Diary.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5A2B57E1DF2A42300E606E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Wentaile Wu";
+				TargetAttributes = {
+					F5A2B5851DF2A42300E606E1 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F5A2B5811DF2A42300E606E1 /* Build configuration list for PBXProject "New Mood Diary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5A2B57D1DF2A42200E606E1;
+			productRefGroup = F5A2B5871DF2A42300E606E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5A2B5851DF2A42300E606E1 /* New Mood Diary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5A2B5841DF2A42300E606E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A2B5971DF2A42300E606E1 /* LaunchScreen.storyboard in Resources */,
+				F5A2B5941DF2A42300E606E1 /* Assets.xcassets in Resources */,
+				F5A2B58F1DF2A42300E606E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5A2B5821DF2A42300E606E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A2B5921DF2A42300E606E1 /* New_Mood_Diary.xcdatamodeld in Sources */,
+				F57090C41DF2A7A500515E83 /* addTasksViewController.swift in Sources */,
+				F5A2B58C1DF2A42300E606E1 /* ViewController.swift in Sources */,
+				F57090C61DF3876B00515E83 /* ContentDetailsViewController.swift in Sources */,
+				F57090C81DF3A1BB00515E83 /* EditContentViewController.swift in Sources */,
+				F5A2B58A1DF2A42300E606E1 /* AppDelegate.swift in Sources */,
+				E82D8B701DF67DD700E196EC /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F5A2B58D1DF2A42300E606E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5A2B58E1DF2A42300E606E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5A2B5951DF2A42300E606E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5A2B5961DF2A42300E606E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5A2B5991DF2A42300E606E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5A2B59A1DF2A42300E606E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5A2B59C1DF2A42300E606E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "New Mood Diary/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mood-Diary";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F5A2B59D1DF2A42300E606E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "New Mood Diary/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mood-Diary";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5A2B5811DF2A42300E606E1 /* Build configuration list for PBXProject "New Mood Diary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5A2B5991DF2A42300E606E1 /* Debug */,
+				F5A2B59A1DF2A42300E606E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5A2B59B1DF2A42300E606E1 /* Build configuration list for PBXNativeTarget "New Mood Diary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5A2B59C1DF2A42300E606E1 /* Debug */,
+				F5A2B59D1DF2A42300E606E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F5A2B5901DF2A42300E606E1 /* New_Mood_Diary.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F5A2B5911DF2A42300E606E1 /* New_Mood_Diary.xcdatamodel */,
+			);
+			currentVersion = F5A2B5911DF2A42300E606E1 /* New_Mood_Diary.xcdatamodel */;
+			path = New_Mood_Diary.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F5A2B57E1DF2A42300E606E1 /* Project object */;
+}
